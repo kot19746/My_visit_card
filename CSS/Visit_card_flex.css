@@ -1,0 +1,98 @@
+@font-face {
+    src: url("../fonts/Vollkorn-Bold.ttf");
+    font-family: "Vollkorn Bold";
+}
+@font-face {
+    src: url("../fonts/Vollkorn-Regular.ttf");
+    font-family: "Vollkorn Regular";
+}
+@font-face {
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-family: "OpenSans Regular";
+}
+.head a {
+    display: inline-block; /*ecarte des mots*/
+    padding: 15px; /*taille d'ecarte*/
+}
+               /*если шапку надо флексом, то закомментировать эту часть*/
+.head {
+    display: block;
+    padding: 20px; text-align: center;
+    border-bottom: 1px solid black;
+}
+        /*если шапку надо флексом, то раскомментировать эту часть*/
+/*.head { display: flex;
+    align-items: center; text-align: center;
+    justify-content: space-around;
+    padding: 40px;
+    border-bottom: 1px solid black;
+}*/
+
+a {
+    color: #cc0066; transition: 1s;
+}
+a:hover {
+    color:#00ff00;
+}
+.razdel { margin-top: 10px;
+    margin-bottom: 10px;
+    color: #00cc00; font-size: 150%;
+    border-left: solid #cc9900 20px;
+    padding-left: 10px;
+    font-family: "Vollkorn Bold",  Helvetica, Arial, serif;
+}
+body {
+    background: #ffffcc;
+    font-family: "OpenSans Regular",  Helvetica, Arial, sans-serif;
+}
+.chapeau {
+    color: #009900;  display:  block;
+    font-size: 250%;
+    font-family: "Vollkorn Bold",  Helvetica, Arial, serif;
+}
+
+.main {
+    display: flex;
+    margin-top: 50px;
+}
+.photo {
+    display: block;
+    width: 50%;
+}
+.image {
+    width: 100%;
+    border-width: 5px; border-style: solid;
+    border-color: #009900;
+}
+.text {
+    display: block;
+    width: 50%;
+    padding-left: 50px;
+}
+.footer {
+    padding: 40px;
+    display: block; text-align: center;
+    border-top: solid black 1px;
+    margin-top: 40px;
+    margin-left: auto; margin-right: auto;
+}
+.d1 {
+    width: 65px;  /*bouton de up-retour*/
+    height: 65px;
+    background: yellowgreen;
+    display: flex; align-items: center;
+    justify-content: center;
+    border: solid black 1px;
+    border-radius: 25%;
+}
+.ikonka {
+    display: flex;
+    align-items: center;
+    width: 24px; height: 24px;
+    margin-right: 10px;
+}
+p {
+    display: flex; align-items: center;
+}
+
+
